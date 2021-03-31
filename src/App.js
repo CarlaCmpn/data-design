@@ -15,7 +15,7 @@ import Fiche  from "../src/pages/fiche/fiche"
 const App = () => {
   return (
     <Router>
-      <div className="App"></div>
+      <div className="App">
       <Switch>
         <Route exact path="/">
           <Intro />
@@ -24,6 +24,7 @@ const App = () => {
           <Fiche />
         </Route>
       </Switch>
+      </div>
     </Router>
     
   );

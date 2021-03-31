@@ -1,5 +1,6 @@
 .block-fiche{
-	width: 100vw;
-	height: auto;
-	background-color: pink;
+	display: flex;
+	flex-direction: row;
+	width: 200vw;
+	height: 75vh;
 }
