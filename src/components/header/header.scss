@@ -1,0 +1,50 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+.block-navbar{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	border-bottom: 1px solid $neutral-grey;
+	padding-top: 24px;
+	box-sizing: border-box;
+
+	.block-navbar__details{
+		display: flex;
+		padding: 0px 138px;
+		box-sizing: border-box;
+		justify-content: space-between;
+		width: 100%;
+
+		.block-navbar__details--item{
+			display: flex;
+
+			p{
+				@include small;
+				color: $orange-regular;
+			}
+
+			img{
+				margin-left: 13px;
+			}
+		}
+	}
+
+	.block-navbar__square{
+		display: flex;
+		margin-top: 16px;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+
+		.block-navbar__square--item{
+			width: 31px;
+			height: 28px;
+			background-color: $neutral-grey;
+			border-radius: 3px;
+			margin-bottom: 24px;
+		}
+	}
+}
