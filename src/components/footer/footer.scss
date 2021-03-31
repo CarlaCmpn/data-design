@@ -1,0 +1,53 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+.block-footer{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	width: 100%;
+	height: auto;
+	border-top: 1px solid $neutral-grey;
+	padding-bottom: 24px;
+	box-sizing: border-box;
+	position: absolute;
+	bottom: 0;
+
+	.block-footer__square{
+		display: flex;
+		margin-bottom: 16px;
+		justify-content: space-around;
+		width: 100%;
+		height: auto;
+
+		.block-footer__square--item{
+			width: 31px;
+			height: 28px;
+			background-color: $neutral-grey;
+			border-radius: 3px;
+			margin-top: 24px;
+		}
+	}
+
+	.block-footer__details{
+		display: flex;
+		padding: 0px 138px;
+		box-sizing: border-box;
+		justify-content: space-between;
+		width: 60%;
+
+		.block-footer__details--item{
+			display: flex;
+
+			p{
+				@include small;
+				color: $orange-regular;
+			}
+
+			img{
+				margin-left: 13px;
+			}
+		}
+	}
+}
