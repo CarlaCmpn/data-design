@@ -1,0 +1,47 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+.block-intro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("../../assets/images/background.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	// background-size: cover;
+
+	.block-intro__content{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		height: 30%;
+
+		h1{
+			font-family: "Sinistre";
+			font-size: 64px;
+			color: $orange-regular;
+			text-transform: uppercase;
+		}
+
+		h2{
+			@include subtitle_2;
+			color: $neutral-white;
+		}
+	}
+
+	.block-intro__button{
+		margin-top: 64px;
+
+		a{
+			color: $orange-regular;
+			@include button;
+			border-bottom: 1px solid $orange-regular;
+			// text-decoration: underline;
+		}
+	}
+}
