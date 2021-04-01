@@ -2,6 +2,7 @@ import React, {useEffect, useRef} from "react"
 
 import "./fiche.scss"
 import FirstPart from "../../components/firstPart/firstPart"
+import SecondPart from "../../components/secondPart/secondPart"
 
 import Header from "../../components/header/header"
 import Footer from "../../components/footer/footer"
@@ -35,8 +36,10 @@ const Fiche = () => {
 				{data.map((item, i) =>
 					<div className="block-container" key={i}>
 						<Header text_1={i+1+"A"} text_2={i+1+"B"}  text_3={i+1+"C"} />
-						<FirstPart data={item}/>
-							
+						<div className="block-container__main">
+							<FirstPart data={item}/>
+							<SecondPart data={item}/>
+						</div>
 						<Footer year={item.year}/>
 					</div>
 				)}

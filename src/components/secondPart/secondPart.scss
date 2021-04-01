@@ -1,0 +1,9 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+.block-container__content{
+	background-color: red;
+	width: 100vw;
+	height: 76vh;
+}

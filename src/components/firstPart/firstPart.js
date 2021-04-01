@@ -5,7 +5,7 @@ import "./firstPart.scss"
 const FirstPart = ({data}) => {
 
 	return(
-		<div className="block-container__content">
+		<div className="block-container__content--part1">
 			<div className="block-container__content__left">
 				<h1>{data.year}</h1>
 				<div className="block-container__content--sub-genre">

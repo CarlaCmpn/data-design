@@ -14,8 +14,8 @@
 		height: 100%;
 		box-sizing: border-box;
 
-		p{
-			color: white;
+		.block-container__main{
+			display: flex;
 		}
 	}
 }
