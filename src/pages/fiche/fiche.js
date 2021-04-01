@@ -1,16 +1,22 @@
 import React, {useEffect, useRef} from "react"
 
 import "./fiche.scss"
+import FirstPart from "../../components/firstPart/firstPart"
+
 import Header from "../../components/header/header"
 import Footer from "../../components/footer/footer"
-import FirstPart from "../../components/firstPart/firstPart"
 
 import LocomotiveScroll from 'locomotive-scroll'
 import '../../../node_modules/locomotive-scroll/src/locomotive-scroll.scss'
 
+import json from "../../movies_db.json"
+
 const Fiche = () => {
 
 	const ref = useRef(null)
+	const data = json
+
+	console.log(data)
 
 	useEffect(()=> {
 		if(ref){
@@ -24,15 +30,18 @@ const Fiche = () => {
 	}, [])
 
 	return(
-		<>
-			<Header />
-			<div className="block-scroll" data-scroll-container ref={ref}>
-				<div className="block-fiche">
-					<FirstPart />
-				</div>
+		<div className="block-scroll" data-scroll-container ref={ref}>
+			<div className="block-fiche">
+				{data.map((item, i) =>
+					<div className="block-container" key={i}>
+						<Header text_1={i+1+"A"} text_2={i+1+"B"}  text_3={i+1+"C"} />
+						<FirstPart data={item}/>
+							
+						<Footer year={item.year}/>
+					</div>
+				)}
 			</div>
-			<Footer />
-		</>
+		</div>
 	)
 }
 

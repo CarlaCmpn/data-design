@@ -5,29 +5,34 @@
 .block-navbar{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-	height: auto;
+	width: 200vw;
+	height: 12vh;
 	border-bottom: 1px solid $neutral-grey;
 	padding-top: 24px;
 	box-sizing: border-box;
 
 	.block-navbar__details{
 		display: flex;
-		padding: 0px 138px;
-		box-sizing: border-box;
-		justify-content: space-between;
-		width: 100%;
+		width: 200vw;
 
-		.block-navbar__details--item{
+		.block-navbar__details__content{
 			display: flex;
-
-			p{
-				@include small;
-				color: $orange-regular;
-			}
-
-			img{
-				margin-left: 13px;
+			padding: 0px 138px;
+			box-sizing: border-box;
+			justify-content: space-between;
+			width: 100vw;
+	
+			.block-navbar__details__content--item{
+				display: flex;
+	
+				p{
+					@include small;
+					color: $orange-regular;
+				}
+	
+				img{
+					margin-left: 13px;
+				}
 			}
 		}
 	}

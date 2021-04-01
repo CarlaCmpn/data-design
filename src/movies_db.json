@@ -1,0 +1,481 @@
+[
+    {
+        "year": 1960,
+        "subGender": "Slasher",
+        "movieProduction": "37",
+        "productionCountriesNumber": "08",
+        "evolutionStat": 0,
+        "evolutionStatText": 0,
+        "productionCountries": [
+            {
+                "country": "UK",
+                "movies" : 13
+            },
+            {
+                "country": "USA",
+                "movies" : 8
+            },
+            {
+                "country": "Italie",
+                "movies" : 5
+            },
+            {
+                "country": "Allemagne",
+                "movies" : 3
+            },
+            {
+                "country": "Japon",
+                "movies" : 3
+            },
+            {
+                "country": "France",
+                "movies" : 2
+            },
+            {
+                "country": "Mexique",
+                "movies" : 2
+            },
+            {
+                "country": "Hong Kong",
+                "movies" : 1
+            }
+        ],
+        "genderPercentage": 4,
+        "genderRanking": {
+            "1": {
+                "gender": "COMÉDIE",
+                "percentage": 29,
+                "image": "image1.png"
+            },
+            "2": {
+                "gender": "ROMANCE",
+                "percentage": 14,
+                "image": "image2.png"
+            },
+            "3": {
+                "gender": "CRIME",
+                "percentage": 13,
+                "image": "image3.png"
+            },
+            "4": {
+                "gender": "HORREUR",
+                "percentage": 4,
+                "image": "image4.png"
+            }
+        },
+        "bestMovie": {
+            "name": "PSYCHO",
+            "director": "Alfred Hitchcock",
+            "rating": 8.5,
+            "country": "USA",
+            "poster": "poster.png"
+        }
+    },
+    {
+        "year": 1980,
+        "subGender": "Torture porn",
+        "movieProduction": 89,
+        "productionCountriesNumber": 16,
+        "evolutionStat": "2x",
+        "evolutionStatText": "Plus de pays en 20 ans",
+        "productionCountries": [
+            {
+                "country": "USA",
+                "movies" : 38
+            },
+            {
+                "country": "Italie",
+                "movies" : 15
+            },
+            {
+                "country": "Canada",
+                "movies" : 6
+            },
+            {
+                "country": "Espagne",
+                "movies" : 6
+            },
+            {
+                "country": "UK",
+                "movies" : 5
+            },
+            {
+                "country": "Hong Kong",
+                "movies" : 4
+            },
+            {
+                "country": "Japon",
+                "movies" : 4
+            },
+            {
+                "country": "France",
+                "movies" : 2
+            },
+            {
+                "country": "Inde",
+                "movies" : 2
+            },
+            {
+                "country": "Belgique",
+                "movies" : 1
+            },
+            {
+                "country": "Australie",
+                "movies" : 1
+            },
+            {
+                "country": "Mexique",
+                "movies" : 1
+            },
+            {
+                "country": "URSS",
+                "movies" : 1
+            },
+            {
+                "country": "Israel",
+                "movies" : 1
+            },
+            {
+                "country": "Allemagne",
+                "movies" : 1
+            },
+            {
+                "country": "Rép. dominicaine",
+                "movies" : 1
+            }
+        ],
+        "genderPercentage": 6,
+        "genderRanking": {
+            "1": {
+                "gender": "COMÉDIE",
+                "percentage": 25,
+                "image": "image1.png"
+            },
+            "2": {
+                "gender": "ACTION",
+                "percentage": 14,
+                "image": "image2.png"
+            },
+            "3": {
+                "gender": "CRIME",
+                "percentage": 8,
+                "image": "image3.png"
+            },
+            "4": {
+                "gender": "HORREUR",
+                "percentage": 6,
+                "image": "image4.png"
+            }
+        },
+        "bestMovie": {
+            "name": "SHINING",
+            "director": "Stanley Kubrick",
+            "rating": 8.4,
+            "country": "USA / UK",
+            "poster": "poster.png"
+        }
+    },
+    {
+        "year": 2007,
+        "subGender": "Home Invasion",
+        "movieProduction": "269",
+        "productionCountriesNumber": "31",
+        "evolutionStat": "3x",
+        "evolutionStatText": "Plus de films en 27 ans",
+        "productionCountries": [
+            {
+                "country": "USA",
+                "movies" : 151
+            },
+            {
+                "country": "Canada",
+                "movies" : 19
+            },
+            {
+                "country": "UK",
+                "movies" : 12
+            },
+            {
+                "country": "Corée du Sud",
+                "movies" : 8
+            },
+            {
+                "country": "Allemagne",
+                "movies" : 7
+            },
+            {
+                "country": "Thailand",
+                "movies" : 7
+            },
+            {
+                "country": "Japan",
+                "movies" : 7
+            },
+            {
+                "country": "France",
+                "movies" : 5
+            },
+            {
+                "country": "Italie",
+                "movies" : 5
+            },
+            {
+                "country": "Mexique",
+                "movies" : 4
+            },
+            {
+                "country": "Espagne",
+                "movies" : 4
+            },
+            {
+                "country": "Danemark",
+                "movies" : 4
+            },
+            {
+                "country": "Hong Kong",
+                "movies" : 4
+            },
+            {
+                "country": "Argentine",
+                "movies" : 4
+            },{
+                "country": "Inde",
+                "movies" : 4
+            },
+            {
+                "country": "Australie",
+                "movies" : 3
+            },
+            {
+                "country": "Nouvelle Zélande",
+                "movies" : 3
+            },
+            {
+                "country": "Turquie",
+                "movies" : 3
+            },
+            {
+                "country": "Russie",
+                "movies" : 2
+            },
+            {
+                "country": "Ireland",
+                "movies" : 2
+            },
+            {
+                "country": "Croatie",
+                "movies" : 1
+            },
+            {
+                "country": "Philippines",
+                "movies" : 1
+            },
+            {
+                "country": "Malaisie",
+                "movies" : 1
+            },
+            {
+                "country": "Belgique",
+                "movies" : 1
+            },
+            {
+                "country": "Iran",
+                "movies" : 1
+            },
+            {
+                "country": "Autriche",
+                "movies" : 1
+            },
+            {
+                "country": "Suisse",
+                "movies" : 1
+            },
+            {
+                "country": "Pakistan",
+                "movies" : 1
+            },
+            {
+                "country": "Tchéquie",
+                "movies" : 1
+            },
+            {
+                "country": "Afrique du Sud",
+                "movies" : 1
+            },
+            {
+                "country": "Indonésie",
+                "movies" : 1
+            }
+        ],
+        "genderPercentage": 9,
+        "genderRanking": {
+            "1": {
+                "gender": "COMÉDIE",
+                "percentage": 24,
+                "image": "image1.png"
+            },
+            "2": {
+                "gender": "ROMANCE",
+                "percentage": 11,
+                "image": "image2.png"
+            },
+            "3": {
+                "gender": "HORREUR",
+                "percentage": 9,
+                "image": "image4.png"
+            },
+            "4": {
+                "gender": "CRIME",
+                "percentage": 8,
+                "image": "image3.png"
+            }
+        },
+        "bestMovie": {
+            "name": "[REC]",
+            "director": " Jaume Balagueró",
+            "rating": 7.5,
+            "country": "Espagne",
+            "poster": "poster.png"
+        }
+    },
+    {
+        "year": 2017,
+        "subGender": "Horror documentary",
+        "movieProduction": 497,
+        "productionCountriesNumber": 25,
+        "evolutionStat": 0,
+        "evolutionStatText": 0,
+        "productionCountries": [
+            {
+                "country": "USA",
+                "movies" : 256
+            },
+            {
+                "country": "UK",
+                "movies" : 58
+            },
+            {
+                "country": "Canada",
+                "movies" : 33
+            },
+            {
+                "country": "Australie",
+                "movies" : 14
+            },
+            {
+                "country": "Espagne",
+                "movies" : 13
+            },
+            {
+                "country": "Italie",
+                "movies" : 9
+            },
+            {
+                "country": "Russie",
+                "movies" : 8
+            },
+            {
+                "country": "Thailande",
+                "movies" : 7
+            },
+            {
+                "country": "France",
+                "movies" : 5
+            },
+            {
+                "country": "Brésil",
+                "movies" : 5
+            },
+            {
+                "country": "Mexique",
+                "movies" : 4
+            },
+            {
+                "country": "Philippines",
+                "movies" : 4
+            },
+            {
+                "country": "Irlande",
+                "movies" : 4
+            },
+            {
+                "country": "Allemagne",
+                "movies" : 3
+            },
+            {
+                "country": "Finlande",
+                "movies" : 3
+            },
+            {
+                "country": "Bulgarie",
+                "movies" : 2
+            },
+            {
+                "country": "Islande",
+                "movies" : 2
+            },
+            {
+                "country": "Argentine",
+                "movies" : 2
+            },
+            {
+                "country": "Portugal",
+                "movies" : 1
+            },
+            {
+                "country": "Hongrie",
+                "movies" : 1
+            },
+            {
+                "country": "Belgique",
+                "movies" : 1
+            },
+            {
+                "country": "Suisse",
+                "movies" : 1
+            },
+            {
+                "country": "Luxembourg",
+                "movies" : 1
+            },
+            {
+                "country": "Nouvelle-Zélande",
+                "movies" : 1
+            },
+            {
+                "country": "Iran",
+                "movies" : 1
+            }
+        ],
+        "genderPercentage": 11,
+        "genderRanking": {
+            "1": {
+                "gender": "COMÉDIE",
+                "percentage": 22,
+                "image": "image1.png"
+            },
+            "2": {
+                "gender": "DOCUMENTAIRE",
+                "percentage": 22,
+                "image": "image2.png"
+            },
+            "3": {
+                "gender": "HORREUR",
+                "percentage": 11,
+                "image": "image3.png"
+            },
+            "4": {
+                "gender": "ROMANCE",
+                "percentage": 8,
+                "image": "image4.png"
+            }
+        },
+        "bestMovie": {
+            "name": "Get out",
+            "director": "Jordan Peele",
+            "rating": 7.7,
+            "country": "USA",
+            "poster": "poster.png"
+        }
+    }
+]

@@ -8,6 +8,7 @@ import {
 import "../src/styles/reset.css"
 import  "./App.scss"
 
+
 import Intro from "../src/pages/intro/intro"
 import Fiche  from "../src/pages/fiche/fiche"
 

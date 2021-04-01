@@ -5,9 +5,8 @@
 .block-footer{
 	display: flex;
 	flex-direction: column;
-	align-items: flex-end;
-	width: 100%;
-	height: auto;
+	width: 200vw;
+	height: 12vh;
 	border-top: 1px solid $neutral-grey;
 	padding-bottom: 24px;
 	box-sizing: border-box;
@@ -32,21 +31,41 @@
 
 	.block-footer__details{
 		display: flex;
-		padding: 0px 138px;
-		box-sizing: border-box;
-		justify-content: space-between;
-		width: 60%;
+		width: 200vw;
 
-		.block-footer__details--item{
+		.block-footer__details__content{
 			display: flex;
-
-			p{
-				@include small;
-				color: $orange-regular;
+			padding: 0px 138px;
+			box-sizing: border-box;
+			justify-content: space-between;
+			width: 100vw;
+	
+			.block-footer__details__content--year{
+				display: flex;
+				margin-left: 650px;
+	
+				p{
+					@include small;
+					color: $orange-regular;
+				}
+	
+				img{
+					margin-left: 13px;
+				}
 			}
 
-			img{
-				margin-left: 13px;
+			.block-footer__details__content--next{
+				display: flex;
+				margin-left: 473px;
+	
+				p{
+					@include small;
+					color: $orange-regular;
+				}
+	
+				img{
+					margin-left: 13px;
+				}
 			}
 		}
 	}
