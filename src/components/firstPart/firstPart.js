@@ -33,7 +33,6 @@ const FirstPart = ({data}) => {
 			</div>
 			<div className="block-container__content__right">
 				<h2>Répartition des films produits par pays</h2>
-				{/* <BubbleGraph oui={[12, 6, 6, 7, 10]}/> */}
 				<BubbleGraph data={data.productionCountries}/>
 			</div>
 		</div>

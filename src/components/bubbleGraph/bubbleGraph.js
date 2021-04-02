@@ -19,11 +19,10 @@ class BubbleGraph extends Component {
 		.append("svg")
 		.attr("width", "100%")
 		.attr("height", "50vh")
-		.attr('style', "border: thin red solid")
 	}
 
 	drawChart(svg){
-		// svg.append("circle").attr("r", 100)
+		d3.shuffle(this.state.data)
 		let hierachalData= this.makeHierarchy(this.state.data)
 		let packLayout = this.pack([400-5, 400-5])
 		const root = packLayout(hierachalData);
@@ -32,16 +31,16 @@ class BubbleGraph extends Component {
 			.selectAll("g")
 			.data(root.leaves())
 			.join("g")
-			.attr("transform", d => `translate(${d.x + 1}, ${d.y + 1})` );
+			.attr("transform", d => `translate(${d.x + 1}, ${d.y + 1})` )
+			.classed("big", d => d.data.movies >= 10)
+			.classed("medium", d => d.data.movies < 10 && d.data.movies >= 8)
+			.classed("regular", d => d.data.movies < 8 && d.data.movies >= 5)
+			.classed("light", d => d.data.movies < 5)
 		
 		leaf
 			.append("circle")
 			.attr("r", d => d.r)
 			.attr("fill-opacity", 0.7)
-			.attr("fill", "white")
-		
-		leaf.append("text")
-			.attr("clip-path", d => d.country)
 	}
 
 	pack(size){
@@ -62,9 +61,7 @@ class BubbleGraph extends Component {
 	render(){
 		console.log(this.state.data)
 		return(
-			<div>
-				<div id="bubblechart" ref={el => (this.el = el)} />
-			</div>
+			<div id="bubblechart" ref={el => (this.el = el)} />
 		)
 	}
 }

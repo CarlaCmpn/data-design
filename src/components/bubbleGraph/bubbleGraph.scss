@@ -1,0 +1,21 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+#bubblechart{
+	.big{
+		fill: $orange-regular;
+	}
+
+	.medium{
+		fill: $orange-medium;
+	}
+
+	.regular{
+		fill: $orange-darker;
+	}
+
+	.light{
+		fill: $orange-light;
+	}
+}
