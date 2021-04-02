@@ -42,25 +42,21 @@
         ],
         "genderPercentage": 4,
         "genderRanking": {
-            "1": {
+            "first": {
                 "gender": "COMÉDIE",
-                "percentage": 29,
-                "image": "image1.png"
+                "percentage": 29
             },
-            "2": {
+            "second": {
                 "gender": "ROMANCE",
-                "percentage": 14,
-                "image": "image2.png"
+                "percentage": 14
             },
-            "3": {
+            "third": {
                 "gender": "CRIME",
-                "percentage": 13,
-                "image": "image3.png"
+                "percentage": 13
             },
-            "4": {
+            "fourth": {
                 "gender": "HORREUR",
-                "percentage": 4,
-                "image": "image4.png"
+                "percentage": 4
             }
         },
         "bestMovie": {
@@ -146,25 +142,21 @@
         ],
         "genderPercentage": 6,
         "genderRanking": {
-            "1": {
+            "first": {
                 "gender": "COMÉDIE",
-                "percentage": 25,
-                "image": "image1.png"
+                "percentage": 25
             },
-            "2": {
+            "second": {
                 "gender": "ACTION",
-                "percentage": 14,
-                "image": "image2.png"
+                "percentage": 14
             },
-            "3": {
+            "third": {
                 "gender": "CRIME",
-                "percentage": 8,
-                "image": "image3.png"
+                "percentage": 8
             },
-            "4": {
+            "fourth": {
                 "gender": "HORREUR",
-                "percentage": 6,
-                "image": "image4.png"
+                "percentage": 6
             }
         },
         "bestMovie": {
@@ -309,25 +301,21 @@
         ],
         "genderPercentage": 9,
         "genderRanking": {
-            "1": {
+            "first": {
                 "gender": "COMÉDIE",
-                "percentage": 24,
-                "image": "image1.png"
+                "percentage": 24
             },
-            "2": {
+            "second": {
                 "gender": "ROMANCE",
-                "percentage": 11,
-                "image": "image2.png"
+                "percentage": 11
             },
-            "3": {
+            "third": {
                 "gender": "HORREUR",
-                "percentage": 9,
-                "image": "image4.png"
+                "percentage": 9
             },
-            "4": {
+            "fourth": {
                 "gender": "CRIME",
-                "percentage": 8,
-                "image": "image3.png"
+                "percentage": 8
             }
         },
         "bestMovie": {
@@ -449,25 +437,21 @@
         ],
         "genderPercentage": 11,
         "genderRanking": {
-            "1": {
+            "first": {
                 "gender": "COMÉDIE",
-                "percentage": 22,
-                "image": "image1.png"
+                "percentage": 22
             },
-            "2": {
+            "second": {
                 "gender": "DOCUMENTAIRE",
-                "percentage": 22,
-                "image": "image2.png"
+                "percentage": 22
             },
-            "3": {
+            "third": {
                 "gender": "HORREUR",
-                "percentage": 11,
-                "image": "image3.png"
+                "percentage": 11
             },
-            "4": {
+            "fourth": {
                 "gender": "ROMANCE",
-                "percentage": 8,
-                "image": "image4.png"
+                "percentage": 8
             }
         },
         "bestMovie": {
