@@ -16,27 +16,27 @@
                 "movies" : 8
             },
             {
-                "country": "Italie",
+                "country": "ITA",
                 "movies" : 5
             },
             {
-                "country": "Allemagne",
+                "country": "ALL",
                 "movies" : 3
             },
             {
-                "country": "Japon",
+                "country": "JAP",
                 "movies" : 3
             },
             {
-                "country": "France",
+                "country": "FRA",
                 "movies" : 2
             },
             {
-                "country": "Mexique",
+                "country": "MEX",
                 "movies" : 2
             },
             {
-                "country": "Hong Kong",
+                "country": "HK",
                 "movies" : 1
             }
         ],
@@ -84,15 +84,15 @@
                 "movies" : 38
             },
             {
-                "country": "Italie",
+                "country": "ITA",
                 "movies" : 15
             },
             {
-                "country": "Canada",
+                "country": "CA",
                 "movies" : 6
             },
             {
-                "country": "Espagne",
+                "country": "ESP",
                 "movies" : 6
             },
             {
@@ -100,31 +100,31 @@
                 "movies" : 5
             },
             {
-                "country": "Hong Kong",
+                "country": "HL",
                 "movies" : 4
             },
             {
-                "country": "Japon",
+                "country": "JAP",
                 "movies" : 4
             },
             {
-                "country": "France",
+                "country": "FRA",
                 "movies" : 2
             },
             {
-                "country": "Inde",
+                "country": "IND",
                 "movies" : 2
             },
             {
-                "country": "Belgique",
+                "country": "BEL",
                 "movies" : 1
             },
             {
-                "country": "Australie",
+                "country": "AUS",
                 "movies" : 1
             },
             {
-                "country": "Mexique",
+                "country": "MEX",
                 "movies" : 1
             },
             {
@@ -132,15 +132,15 @@
                 "movies" : 1
             },
             {
-                "country": "Israel",
+                "country": "ISR",
                 "movies" : 1
             },
             {
-                "country": "Allemagne",
+                "country": "ALL",
                 "movies" : 1
             },
             {
-                "country": "Rép. dominicaine",
+                "country": "Rép. D",
                 "movies" : 1
             }
         ],
@@ -188,7 +188,7 @@
                 "movies" : 151
             },
             {
-                "country": "Canada",
+                "country": "CA",
                 "movies" : 19
             },
             {
@@ -196,114 +196,114 @@
                 "movies" : 12
             },
             {
-                "country": "Corée du Sud",
+                "country": "CS",
                 "movies" : 8
             },
             {
-                "country": "Allemagne",
+                "country": "ALL",
                 "movies" : 7
             },
             {
-                "country": "Thailand",
+                "country": "TD",
                 "movies" : 7
             },
             {
-                "country": "Japan",
+                "country": "JAP",
                 "movies" : 7
             },
             {
-                "country": "France",
+                "country": "FRA",
                 "movies" : 5
             },
             {
-                "country": "Italie",
+                "country": "ITA",
                 "movies" : 5
             },
             {
-                "country": "Mexique",
+                "country": "MEX",
                 "movies" : 4
             },
             {
-                "country": "Espagne",
+                "country": "ESP",
                 "movies" : 4
             },
             {
-                "country": "Danemark",
+                "country": "DAK",
                 "movies" : 4
             },
             {
-                "country": "Hong Kong",
+                "country": "HK",
                 "movies" : 4
             },
             {
-                "country": "Argentine",
+                "country": "AGN",
                 "movies" : 4
             },{
-                "country": "Inde",
+                "country": "IND",
                 "movies" : 4
             },
             {
-                "country": "Australie",
+                "country": "AUS",
                 "movies" : 3
             },
             {
-                "country": "Nouvelle Zélande",
+                "country": "N",
                 "movies" : 3
             },
             {
-                "country": "Turquie",
+                "country": "TUR",
                 "movies" : 3
             },
             {
-                "country": "Russie",
+                "country": "RUS",
                 "movies" : 2
             },
             {
-                "country": "Ireland",
+                "country": "IR",
                 "movies" : 2
             },
             {
-                "country": "Croatie",
+                "country": "CRO",
                 "movies" : 1
             },
             {
-                "country": "Philippines",
+                "country": "PHI",
                 "movies" : 1
             },
             {
-                "country": "Malaisie",
+                "country": "MAL",
                 "movies" : 1
             },
             {
-                "country": "Belgique",
+                "country": "BEL",
                 "movies" : 1
             },
             {
-                "country": "Iran",
+                "country": "IRA",
                 "movies" : 1
             },
             {
-                "country": "Autriche",
+                "country": "AUT",
                 "movies" : 1
             },
             {
-                "country": "Suisse",
+                "country": "SUI",
                 "movies" : 1
             },
             {
-                "country": "Pakistan",
+                "country": "PAK",
                 "movies" : 1
             },
             {
-                "country": "Tchéquie",
+                "country": "TE",
                 "movies" : 1
             },
             {
-                "country": "Afrique du Sud",
+                "country": "AS",
                 "movies" : 1
             },
             {
-                "country": "Indonésie",
+                "country": "INDO",
                 "movies" : 1
             }
         ],
@@ -334,7 +334,7 @@
             "name": "[REC]",
             "director": " Jaume Balagueró",
             "rating": 7.5,
-            "country": "Espagne",
+            "country": "ESP",
             "poster": "poster.png"
         }
     },
@@ -355,43 +355,43 @@
                 "movies" : 58
             },
             {
-                "country": "Canada",
+                "country": "CA",
                 "movies" : 33
             },
             {
-                "country": "Australie",
+                "country": "AUS",
                 "movies" : 14
             },
             {
-                "country": "Espagne",
+                "country": "ESP",
                 "movies" : 13
             },
             {
-                "country": "Italie",
+                "country": "ITA",
                 "movies" : 9
             },
             {
-                "country": "Russie",
+                "country": "RUS",
                 "movies" : 8
             },
             {
-                "country": "Thailande",
+                "country": "TD",
                 "movies" : 7
             },
             {
-                "country": "France",
+                "country": "FRA",
                 "movies" : 5
             },
             {
-                "country": "Brésil",
+                "country": "BRE",
                 "movies" : 5
             },
             {
-                "country": "Mexique",
+                "country": "MEX",
                 "movies" : 4
             },
             {
-                "country": "Philippines",
+                "country": "PHI",
                 "movies" : 4
             },
             {
@@ -399,35 +399,35 @@
                 "movies" : 4
             },
             {
-                "country": "Allemagne",
+                "country": "ALL",
                 "movies" : 3
             },
             {
-                "country": "Finlande",
+                "country": "FIN",
                 "movies" : 3
             },
             {
-                "country": "Bulgarie",
+                "country": "BUL",
                 "movies" : 2
             },
             {
-                "country": "Islande",
+                "country": "ISL",
                 "movies" : 2
             },
             {
-                "country": "Argentine",
+                "country": "AGN",
                 "movies" : 2
             },
             {
-                "country": "Portugal",
+                "country": "PRT",
                 "movies" : 1
             },
             {
-                "country": "Hongrie",
+                "country": "HON",
                 "movies" : 1
             },
             {
-                "country": "Belgique",
+                "country": "BEL",
                 "movies" : 1
             },
             {

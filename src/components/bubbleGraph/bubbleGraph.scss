@@ -2,20 +2,83 @@
 @import '../../styles/variables/mixins/font-style';
 @import '../../styles/variables/fonts/font';
 
+.tooltip{
+	position: absolute;
+	text-align: center;
+	padding: .5rem;
+	background: #FFFFFF;
+	color: #313639;
+	border: 1px solid #313639;
+	border-radius: 8px;
+	pointer-events: none;
+	font-size: 1.3rem;
+	margin-top: 320px;
+	top: 0;
+}
+
 #bubblechart{
+
+	// background: purple;
+
 	.big{
-		fill: $orange-regular;
+
+		circle {
+			fill: $orange-regular;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 34px;
+		}
 	}
 
 	.medium{
-		fill: $orange-medium;
-	}
 
+		circle {
+			fill: $orange-medium;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+		}
+	}
+	
 	.regular{
-		fill: $orange-darker;
+
+		circle {
+			fill: $orange-darker;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 20px;
+		}
 	}
 
 	.light{
-		fill: $orange-light;
+
+		circle {
+			fill: $orange-light;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 18px;
+		}
 	}
-}
+
+	.small{
+
+		circle {
+			fill: $orange-light;
+		}
+
+		text{
+			font-size: 10px;
+		}
+	}
+} 
