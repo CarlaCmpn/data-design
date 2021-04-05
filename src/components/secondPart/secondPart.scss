@@ -3,7 +3,89 @@
 @import '../../styles/variables/fonts/font';
 
 .block-container__content{
-	background-color: red;
+	display: flex;
 	width: 100vw;
 	height: 76vh;
+
+	.block-container__content__left{
+		width: 40vw;
+		height: 100%;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+
+		.block-container__content--percentage{
+			width: 60%;
+			margin: 60px auto 0 auto;
+			display: flex;
+			flex-direction: column;
+			@include body;
+			color: $neutral-white;
+			span{
+				margin-bottom: 10px;
+			}
+
+			.block-container__content--percentage--line{
+				display: flex;
+				align-items: center;
+				span:first-child{
+					@include subtitle_2;
+					color: $orange-regular;
+					margin-right: 10px;
+				}
+
+			}
+		}
+
+		.block-container__content--genders{
+			width: 60%;
+			margin-left: 20%;
+			display: flex;
+			justify-content: space-between;
+
+			.block-container__content--genders--bar{
+				display: flex;
+				width: 22%;
+				flex-direction: column;
+				justify-content: flex-end;
+				align-items: center;
+				@include body;
+				color: $neutral-white;
+
+				span:last-of-type{
+					margin-bottom: 10px;
+				}
+
+				div{
+					width: 60%;
+					background-position: center;
+					background-size: cover;
+				}
+			}
+		}
+	}
+
+	.block-container__content__right{
+		width: 60vw;
+		height: 100%;
+		box-sizing: border-box;
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+
+		.block-container__content--best-movie{
+			width: 40%;
+			margin-top: 60px;
+			display: flex;
+			flex-direction: column;
+			@include body;
+			color: $neutral-white;
+
+			span:last-of-type{
+				@include subtitle_2;
+				margin-top: 20px;
+			}
+		}
+	}
 }
