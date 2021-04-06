@@ -24,7 +24,7 @@ class BubbleGraph extends Component {
 	drawChart(svg){
 		d3.shuffle(this.state.data)
 		let hierachalData= this.makeHierarchy(this.state.data)
-		let packLayout = this.pack([450, 400])
+		let packLayout = this.pack([400, 400])
 		const root = packLayout(hierachalData)
 
 		// let Tooltip = d3.select("#bubblechart")
@@ -48,11 +48,10 @@ class BubbleGraph extends Component {
 			.classed("light", d => d.data.movies < 5)
 			.classed("small", d => d.data.movies < 3)
 
-			
 		
 		leaf
 			.append("circle")
-			.attr("r", function(d) { return d.r; })
+			.attr("r", function(d) { return d.r })
 			.attr("fill-opacity", 1)
 
 		
@@ -60,17 +59,24 @@ class BubbleGraph extends Component {
 			.append("text")
 			.attr("x", 0)
 			.attr("y", 0)
-			.text(function(d) { return d.data.country; })
+			.html(function(d) { return d.data.country})
 			.attr("fill", "white")
 			.attr("font-family", "Sinistre")
-	
-			
+
+		// leaf
+		// 	.append("text")
+		// 	.attr("x", 0)
+		// 	.attr("y", 0)
+		// 	.html(function(d) { return d.data.movies})
+		// 	.attr("fill", "white")
+		// 	.attr("font-family", "Sinistre")
+		
 	}
 
 	pack(size){
 		return d3.pack()
 		.size(size)
-		.padding(0)
+		.padding(30)
 	}
 
 	makeHierarchy(){

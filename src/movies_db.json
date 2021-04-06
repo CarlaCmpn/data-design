@@ -8,15 +8,15 @@
         "evolutionStatText": 0,
         "productionCountries": [
             {
-                "country": "UK",
+                "country": "UK 13",
                 "movies" : 13
             },
             {
-                "country": "USA",
+                "country": "US 8",
                 "movies" : 8
             },
             {
-                "country": "ITA",
+                "country": "ITA 5",
                 "movies" : 5
             },
             {
@@ -63,7 +63,7 @@
             "name": "PSYCHO",
             "director": "Alfred Hitchcock",
             "rating": 8.5,
-            "country": "USA",
+            "country": "US",
             "poster": "poster.png"
         }
     },
@@ -76,23 +76,23 @@
         "evolutionStatText": "Plus de pays en 20 ans",
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 38",
                 "movies" : 38
             },
             {
-                "country": "ITA",
+                "country": "ITA 15",
                 "movies" : 15
             },
             {
-                "country": "CA",
+                "country": "CA 6",
                 "movies" : 6
             },
             {
-                "country": "ESP",
+                "country": "ESP 6",
                 "movies" : 6
             },
             {
-                "country": "UK",
+                "country": "UK 5",
                 "movies" : 5
             },
             {
@@ -136,7 +136,7 @@
                 "movies" : 1
             },
             {
-                "country": "Rép. D",
+                "country": "R. D",
                 "movies" : 1
             }
         ],
@@ -163,7 +163,7 @@
             "name": "SHINING",
             "director": "Stanley Kubrick",
             "rating": 8.4,
-            "country": "USA / UK",
+            "country": "US / UK",
             "poster": "poster.png"
         }
     },
@@ -176,39 +176,39 @@
         "evolutionStatText": "Plus de films en 27 ans",
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 151",
                 "movies" : 151
             },
             {
-                "country": "CA",
+                "country": "CA 19",
                 "movies" : 19
             },
             {
-                "country": "UK",
+                "country": "UK 12",
                 "movies" : 12
             },
             {
-                "country": "CS",
+                "country": "C-S 8",
                 "movies" : 8
             },
             {
-                "country": "ALL",
+                "country": "ALL 7",
                 "movies" : 7
             },
             {
-                "country": "TD",
+                "country": "TD 7",
                 "movies" : 7
             },
             {
-                "country": "JAP",
+                "country": "JAP 7",
                 "movies" : 7
             },
             {
-                "country": "FRA",
+                "country": "FRA 5",
                 "movies" : 5
             },
             {
-                "country": "ITA",
+                "country": "ITA 5",
                 "movies" : 5
             },
             {
@@ -239,7 +239,7 @@
                 "movies" : 3
             },
             {
-                "country": "N",
+                "country": "N-Z",
                 "movies" : 3
             },
             {
@@ -295,7 +295,7 @@
                 "movies" : 1
             },
             {
-                "country": "INDO",
+                "country": "IDO",
                 "movies" : 1
             }
         ],
@@ -335,35 +335,35 @@
         "evolutionStatText": 0,
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 256",
                 "movies" : 256
             },
             {
-                "country": "UK",
+                "country": "UK 58",
                 "movies" : 58
             },
             {
-                "country": "CA",
+                "country": "CA 33",
                 "movies" : 33
             },
             {
-                "country": "AUS",
+                "country": "AUS 14",
                 "movies" : 14
             },
             {
-                "country": "ESP",
+                "country": "ESP 13",
                 "movies" : 13
             },
             {
-                "country": "ITA",
+                "country": "ITA 9",
                 "movies" : 9
             },
             {
-                "country": "RUS",
+                "country": "RUS 8",
                 "movies" : 8
             },
             {
-                "country": "TD",
+                "country": "TD 7",
                 "movies" : 7
             },
             {
@@ -383,7 +383,7 @@
                 "movies" : 4
             },
             {
-                "country": "Irlande",
+                "country": "IR",
                 "movies" : 4
             },
             {
@@ -419,19 +419,19 @@
                 "movies" : 1
             },
             {
-                "country": "Suisse",
+                "country": "SUI",
                 "movies" : 1
             },
             {
-                "country": "Luxembourg",
+                "country": "LUX",
                 "movies" : 1
             },
             {
-                "country": "Nouvelle-Zélande",
+                "country": "N-Z",
                 "movies" : 1
             },
             {
-                "country": "Iran",
+                "country": "IRA",
                 "movies" : 1
             }
         ],
@@ -458,7 +458,7 @@
             "name": "Get out",
             "director": "Jordan Peele",
             "rating": 7.7,
-            "country": "USA",
+            "country": "US",
             "poster": "poster.png"
         }
     }

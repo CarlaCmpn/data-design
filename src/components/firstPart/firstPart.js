@@ -25,10 +25,12 @@ const FirstPart = ({data}) => {
 						<p>{data.productionCountriesNumber}</p>
 						<h3>Pays producteurs</h3>
 					</div>
-					<div className="block-container__content--numbers--produced">
-						<p>{data.evolutionStat}</p>
-						<h3>{data.evolutionStatText}</h3>
-					</div>
+					{data.evolutionStat === 0 ? null : 
+						<div className="block-container__content--numbers--produced">
+							<p>{data.evolutionStat}</p>
+							<h3>{data.evolutionStatText}</h3>
+						</div>
+					}
 				</div>
 			</div>
 			<div className="block-container__content__right">
