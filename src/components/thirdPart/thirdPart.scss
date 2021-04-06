@@ -1,0 +1,29 @@
+@import '../../styles/variables/colors/colors';
+@import '../../styles/variables/mixins/font-style';
+@import '../../styles/variables/fonts/font';
+
+.block-container__content--part3{
+	width: 100vw;
+	height: 76vh;
+	display: flex;
+	flex-direction: column;
+
+	.block-container__content__left{
+
+		width: 50vw;
+		height: 100%;
+		// background-color: purple;
+
+		h2{
+			@include subtitle_1;
+			color: $neutral-white;
+			margin-top: 78px;
+		}
+
+		canvas{
+			margin-top: 58px;
+			height: auto !important;
+			width: 100% !important;
+		}
+	}
+}
