@@ -41,13 +41,13 @@ const Fiche = () => {
 							<FirstPart data={item}/>
 							<SecondPart data={item}/>
 						</div>
-						<Footer year={item.year}/>
+						<Footer year={item.year} next="Next date"/>
 					</div>
 				)}
 				<div className="block-container">
-				<Header />
+				<Header text_1="5A" text_2="5B" text_3="5C"/>
 				<ThirdPart data={data}/>
-				<Footer />
+				<Footer year="résumé" next="End"/>
 				</div>
 			</div>
 		</div>
