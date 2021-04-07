@@ -47,7 +47,7 @@ const Fiche = () => {
 				<div className="block-container">
 				<Header text_1="5A" text_2="5B" text_3="5C"/>
 				<ThirdPart data={data}/>
-				<Footer year="résumé" next="End"/>
+				<Footer year="Résumé" next="End"/>
 				</div>
 			</div>
 		</div>

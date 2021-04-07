@@ -20,23 +20,23 @@
                 "movies" : 5
             },
             {
-                "country": "ALL",
+                "country": "ALL 3",
                 "movies" : 3
             },
             {
-                "country": "JAP",
+                "country": "JAP 3",
                 "movies" : 3
             },
             {
-                "country": "FRA",
+                "country": "FR 2",
                 "movies" : 2
             },
             {
-                "country": "MEX",
+                "country": "MEX 2",
                 "movies" : 2
             },
             {
-                "country": "HK",
+                "country": "HK 1",
                 "movies" : 1
             }
         ],
@@ -88,7 +88,7 @@
                 "movies" : 6
             },
             {
-                "country": "ESP 6",
+                "country": "ES 6",
                 "movies" : 6
             },
             {
@@ -96,47 +96,47 @@
                 "movies" : 5
             },
             {
-                "country": "HL",
+                "country": "HL 4",
                 "movies" : 4
             },
             {
-                "country": "JAP",
+                "country": "JAP 4",
                 "movies" : 4
             },
             {
-                "country": "FRA",
+                "country": "FR 2",
                 "movies" : 2
             },
             {
-                "country": "IND",
+                "country": "IND 2",
                 "movies" : 2
             },
             {
-                "country": "BEL",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "AUS",
+                "country": "AU 1",
                 "movies" : 1
             },
             {
-                "country": "MEX",
+                "country": "MEX 1",
                 "movies" : 1
             },
             {
-                "country": "URSS",
+                "country": "URSS 1",
                 "movies" : 1
             },
             {
-                "country": "ISR",
+                "country": "ISR 1",
                 "movies" : 1
             },
             {
-                "country": "ALL",
+                "country": "ALL 1",
                 "movies" : 1
             },
             {
-                "country": "R. D",
+                "country": "R.D 1",
                 "movies" : 1
             }
         ],
@@ -188,7 +188,7 @@
                 "movies" : 12
             },
             {
-                "country": "C-S 8",
+                "country": "CS 8",
                 "movies" : 8
             },
             {
@@ -196,7 +196,7 @@
                 "movies" : 7
             },
             {
-                "country": "TD 7",
+                "country": "TAÏ 7",
                 "movies" : 7
             },
             {
@@ -204,7 +204,7 @@
                 "movies" : 7
             },
             {
-                "country": "FRA 5",
+                "country": "FR 5",
                 "movies" : 5
             },
             {
@@ -212,90 +212,90 @@
                 "movies" : 5
             },
             {
-                "country": "MEX",
+                "country": "MEX 4",
                 "movies" : 4
             },
             {
-                "country": "ESP",
+                "country": "ES 4",
                 "movies" : 4
             },
             {
-                "country": "DAK",
+                "country": "DAK 4",
                 "movies" : 4
             },
             {
-                "country": "HK",
+                "country": "HK 4",
                 "movies" : 4
             },
             {
-                "country": "AGN",
+                "country": "AGN 4",
                 "movies" : 4
             },{
-                "country": "IND",
+                "country": "IND 4",
                 "movies" : 4
             },
             {
-                "country": "AUS",
+                "country": "AU 3",
                 "movies" : 3
             },
             {
-                "country": "N-Z",
+                "country": "NZ 3",
                 "movies" : 3
             },
             {
-                "country": "TUR",
+                "country": "TUR 3",
                 "movies" : 3
             },
             {
-                "country": "RUS",
+                "country": "RU 2",
                 "movies" : 2
             },
             {
-                "country": "IR",
+                "country": "IR 2",
                 "movies" : 2
             },
             {
-                "country": "CRO",
+                "country": "CRO 1",
                 "movies" : 1
             },
             {
-                "country": "PHI",
+                "country": "PHI 1",
                 "movies" : 1
             },
             {
-                "country": "MAL",
+                "country": "MAL 1",
                 "movies" : 1
             },
             {
-                "country": "BEL",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "IRA",
+                "country": "IRA 1",
                 "movies" : 1
             },
             {
-                "country": "AUT",
+                "country": "AUT 1",
                 "movies" : 1
             },
             {
-                "country": "SUI",
+                "country": "SUI 1",
                 "movies" : 1
             },
             {
-                "country": "PAK",
+                "country": "PAK 1",
                 "movies" : 1
             },
             {
-                "country": "TE",
+                "country": "TE 1",
                 "movies" : 1
             },
             {
-                "country": "AS",
+                "country": "AS 1",
                 "movies" : 1
             },
             {
-                "country": "IDO",
+                "country": "IDO 1",
                 "movies" : 1
             }
         ],
@@ -322,7 +322,7 @@
             "name": "[REC]",
             "director": " Jaume Balagueró",
             "rating": 7.5,
-            "country": "ESP",
+            "country": "ES 4",
             "poster": "poster.png"
         }
     },
@@ -347,11 +347,11 @@
                 "movies" : 33
             },
             {
-                "country": "AUS 14",
+                "country": "AU 14",
                 "movies" : 14
             },
             {
-                "country": "ESP 13",
+                "country": "ES 13",
                 "movies" : 13
             },
             {
@@ -359,7 +359,7 @@
                 "movies" : 9
             },
             {
-                "country": "RUS 8",
+                "country": "RU 8",
                 "movies" : 8
             },
             {
@@ -367,71 +367,71 @@
                 "movies" : 7
             },
             {
-                "country": "FRA",
+                "country": "FR 5",
                 "movies" : 5
             },
             {
-                "country": "BRE",
+                "country": "BRE 5",
                 "movies" : 5
             },
             {
-                "country": "MEX",
+                "country": "MEX 4",
                 "movies" : 4
             },
             {
-                "country": "PHI",
+                "country": "PHI 4",
                 "movies" : 4
             },
             {
-                "country": "IR",
+                "country": "IR 4",
                 "movies" : 4
             },
             {
-                "country": "ALL",
+                "country": "ALL 3",
                 "movies" : 3
             },
             {
-                "country": "FIN",
+                "country": "FIN 3",
                 "movies" : 3
             },
             {
-                "country": "BUL",
+                "country": "BUL 2",
                 "movies" : 2
             },
             {
-                "country": "ISL",
+                "country": "ISL 2",
                 "movies" : 2
             },
             {
-                "country": "AGN",
+                "country": "AGN 2",
                 "movies" : 2
             },
             {
-                "country": "PRT",
+                "country": "PRT 1",
                 "movies" : 1
             },
             {
-                "country": "HON",
+                "country": "HON 1",
                 "movies" : 1
             },
             {
-                "country": "BEL",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "SUI",
+                "country": "SUI 1",
                 "movies" : 1
             },
             {
-                "country": "LUX",
+                "country": "LUX 1",
                 "movies" : 1
             },
             {
-                "country": "N-Z",
+                "country": "NZ 1",
                 "movies" : 1
             },
             {
-                "country": "IRA",
+                "country": "IRA 1",
                 "movies" : 1
             }
         ],

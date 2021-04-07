@@ -1,10 +1,17 @@
+// import { cleanup } from "@testing-library/react";
+import { reduce } from "d3-array";
 import React, {useEffect, useState, useRef}  from "react"
+import { defaults } from 'react-chartjs-2'
 
 import { Line } from "react-chartjs-2";
 
 import "./thirdPart.scss"
 
 const ThirdPart = () => {
+
+	defaults.global.defaultFontColor = 'white'
+	defaults.global.defaultFontFamily = 'DM Sans'
+	defaults.global.defaultFontSize = 20
 
 	const data = {
 		labels: [1960, 1970, 1980, 1990, 2000, 2007, 2017],
@@ -15,24 +22,28 @@ const ThirdPart = () => {
 				fill: true,
 				borderColor: "#FF4614",
 				borderWidth: 4,
+				backgroundColor: "#06060A",
 			},
 			{
 				label: "Crime",
 				data: [74, 74, 85, 132, 215, 271, 342],
 				fill: true,
-				borderColor: "#80240A"
+				borderColor: "#80240A",
+				backgroundColor: "#06060A",
 			},
 			{
 				label: "Comédie",
 				data: [131, 211, 227, 291, 487, 707, 1041],
 				fill: true,
-				borderColor: "#804230"
+				borderColor: "#804230",
+				backgroundColor: "#06060A",
 			},
 			{
 				label: "Romance",
 				data: [78, 83, 63, 98, 285, 352, 410],
 				fill: true,
-				borderColor: "#af5840"
+				borderColor: "#af5840",
+				backgroundColor: "#06060A",
 			}
 		]
 	}
@@ -45,7 +56,10 @@ const ThirdPart = () => {
 			entries.forEach(entry => setVisible(entry.isIntersecting));
 		});
 		observer.observe(domRef.current);
-		return () => observer.unobserve(domRef.current);
+		return () => {
+			observer.unobserve(domRef.current);
+			// cleanup(domRef.current);
+		}
 	}, []);
 		
 

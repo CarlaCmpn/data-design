@@ -2,25 +2,15 @@
 @import '../../styles/variables/mixins/font-style';
 @import '../../styles/variables/fonts/font';
 
-.tooltip{
-	position: absolute;
-	text-align: center;
-	padding: .5rem;
-	background: #FFFFFF;
-	color: #313639;
-	border: 1px solid #313639;
-	border-radius: 8px;
-	pointer-events: none;
-	font-size: 1.3rem;
-	margin-top: 320px;
-	top: 0;
-}
-
 #bubblechart{
 
 	// background: purple;
 
 	g:first-of-type{
+		circle{
+			fill: $background;
+		}
+
 		text{
 			visibility: hidden;
 		}
@@ -35,6 +25,7 @@
 		text{
 			text-anchor: middle;
 			alignment-baseline: middle;
+			font-size: 18px;
 		}
 	}
 
@@ -47,6 +38,7 @@
 		text{
 			text-anchor: middle;
 			alignment-baseline: middle;
+			font-size: 18px;
 		}
 	}
 	
@@ -59,6 +51,7 @@
 		text{
 			text-anchor: middle;
 			alignment-baseline: middle;
+			font-size: 14px;
 		}
 	}
 
@@ -71,6 +64,7 @@
 		text{
 			text-anchor: middle;
 			alignment-baseline: middle;
+			font-size: 12px;
 		}
 	}
 
@@ -84,7 +78,6 @@
 			text-anchor: middle;
 			alignment-baseline: middle;
 			font-size: 8px;
-			// visibility: hidden;
 		}
 	}
 } 
