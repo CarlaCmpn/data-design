@@ -3,7 +3,7 @@ import React from "react";
 import "./footer.scss"
 import arrow from "../../assets/images/icon/arrow.svg"
 
-const Footer  = ({year}) => {
+const Footer  = ({year, next}) => {
 
 	return(
 		<footer className="block-footer">
@@ -39,7 +39,7 @@ const Footer  = ({year}) => {
 						<p>{year}</p>
 					</div>
 					<div className="block-footer__details__content--next">
-						<p>Next date</p>
+						<p>{next}</p>
 						<img src={arrow} alt="arrow_icon"/>
 					</div>
 				</div>
@@ -48,7 +48,7 @@ const Footer  = ({year}) => {
 						<p>{year}</p>
 					</div>
 					<div className="block-footer__details__content--next">
-						<p>Next date</p>
+						<p>{next}</p>
 						<img src={arrow} alt="arrow_icon"/>
 					</div>
 				</div>

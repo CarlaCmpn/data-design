@@ -3,6 +3,7 @@ import React, {useEffect, useRef} from "react"
 import "./fiche.scss"
 import FirstPart from "../../components/firstPart/firstPart"
 import SecondPart from "../../components/secondPart/secondPart"
+import ThirdPart from "../../components/thirdPart/thirdPart"
 
 import Header from "../../components/header/header"
 import Footer from "../../components/footer/footer"
@@ -40,9 +41,14 @@ const Fiche = () => {
 							<FirstPart data={item}/>
 							<SecondPart data={item}/>
 						</div>
-						<Footer year={item.year}/>
+						<Footer year={item.year} next="Next date"/>
 					</div>
 				)}
+				<div className="block-container">
+				<Header text_1="5A" text_2="5B" text_3="5C"/>
+				<ThirdPart data={data}/>
+				<Footer year="Résumé" next="End"/>
+				</div>
 			</div>
 		</div>
 	)

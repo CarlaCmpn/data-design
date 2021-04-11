@@ -8,35 +8,35 @@
         "evolutionStatText": 0,
         "productionCountries": [
             {
-                "country": "UK",
+                "country": "UK 13",
                 "movies" : 13
             },
             {
-                "country": "USA",
+                "country": "US 8",
                 "movies" : 8
             },
             {
-                "country": "Italie",
+                "country": "ITA 5",
                 "movies" : 5
             },
             {
-                "country": "Allemagne",
+                "country": "ALL 3",
                 "movies" : 3
             },
             {
-                "country": "Japon",
+                "country": "JAP 3",
                 "movies" : 3
             },
             {
-                "country": "France",
+                "country": "FR 2",
                 "movies" : 2
             },
             {
-                "country": "Mexique",
+                "country": "MEX 2",
                 "movies" : 2
             },
             {
-                "country": "Hong Kong",
+                "country": "HK 1",
                 "movies" : 1
             }
         ],
@@ -63,7 +63,7 @@
             "name": "PSYCHO",
             "director": "Alfred Hitchcock",
             "rating": 8.5,
-            "country": "USA",
+            "country": "US",
             "poster": "poster.png"
         }
     },
@@ -76,67 +76,67 @@
         "evolutionStatText": "Plus de pays en 20 ans",
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 38",
                 "movies" : 38
             },
             {
-                "country": "Italie",
+                "country": "ITA 15",
                 "movies" : 15
             },
             {
-                "country": "Canada",
+                "country": "CA 6",
                 "movies" : 6
             },
             {
-                "country": "Espagne",
+                "country": "ES 6",
                 "movies" : 6
             },
             {
-                "country": "UK",
+                "country": "UK 5",
                 "movies" : 5
             },
             {
-                "country": "Hong Kong",
+                "country": "HL 4",
                 "movies" : 4
             },
             {
-                "country": "Japon",
+                "country": "JAP 4",
                 "movies" : 4
             },
             {
-                "country": "France",
+                "country": "FR 2",
                 "movies" : 2
             },
             {
-                "country": "Inde",
+                "country": "IND 2",
                 "movies" : 2
             },
             {
-                "country": "Belgique",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "Australie",
+                "country": "AU 1",
                 "movies" : 1
             },
             {
-                "country": "Mexique",
+                "country": "MEX 1",
                 "movies" : 1
             },
             {
-                "country": "URSS",
+                "country": "URSS 1",
                 "movies" : 1
             },
             {
-                "country": "Israel",
+                "country": "ISR 1",
                 "movies" : 1
             },
             {
-                "country": "Allemagne",
+                "country": "ALL 1",
                 "movies" : 1
             },
             {
-                "country": "Rép. dominicaine",
+                "country": "R.D 1",
                 "movies" : 1
             }
         ],
@@ -163,7 +163,7 @@
             "name": "SHINING",
             "director": "Stanley Kubrick",
             "rating": 8.4,
-            "country": "USA / UK",
+            "country": "US / UK",
             "poster": "poster.png"
         }
     },
@@ -176,126 +176,126 @@
         "evolutionStatText": "Plus de films en 27 ans",
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 151",
                 "movies" : 151
             },
             {
-                "country": "Canada",
+                "country": "CA 19",
                 "movies" : 19
             },
             {
-                "country": "UK",
+                "country": "UK 12",
                 "movies" : 12
             },
             {
-                "country": "Corée du Sud",
+                "country": "CS 8",
                 "movies" : 8
             },
             {
-                "country": "Allemagne",
+                "country": "ALL 7",
                 "movies" : 7
             },
             {
-                "country": "Thailand",
+                "country": "TAÏ 7",
                 "movies" : 7
             },
             {
-                "country": "Japan",
+                "country": "JAP 7",
                 "movies" : 7
             },
             {
-                "country": "France",
+                "country": "FR 5",
                 "movies" : 5
             },
             {
-                "country": "Italie",
+                "country": "ITA 5",
                 "movies" : 5
             },
             {
-                "country": "Mexique",
+                "country": "MEX 4",
                 "movies" : 4
             },
             {
-                "country": "Espagne",
+                "country": "ES 4",
                 "movies" : 4
             },
             {
-                "country": "Danemark",
+                "country": "DAK 4",
                 "movies" : 4
             },
             {
-                "country": "Hong Kong",
+                "country": "HK 4",
                 "movies" : 4
             },
             {
-                "country": "Argentine",
+                "country": "AGN 4",
                 "movies" : 4
             },{
-                "country": "Inde",
+                "country": "IND 4",
                 "movies" : 4
             },
             {
-                "country": "Australie",
+                "country": "AU 3",
                 "movies" : 3
             },
             {
-                "country": "Nouvelle Zélande",
+                "country": "NZ 3",
                 "movies" : 3
             },
             {
-                "country": "Turquie",
+                "country": "TUR 3",
                 "movies" : 3
             },
             {
-                "country": "Russie",
+                "country": "RU 2",
                 "movies" : 2
             },
             {
-                "country": "Ireland",
+                "country": "IR 2",
                 "movies" : 2
             },
             {
-                "country": "Croatie",
+                "country": "CRO 1",
                 "movies" : 1
             },
             {
-                "country": "Philippines",
+                "country": "PHI 1",
                 "movies" : 1
             },
             {
-                "country": "Malaisie",
+                "country": "MAL 1",
                 "movies" : 1
             },
             {
-                "country": "Belgique",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "Iran",
+                "country": "IRA 1",
                 "movies" : 1
             },
             {
-                "country": "Autriche",
+                "country": "AUT 1",
                 "movies" : 1
             },
             {
-                "country": "Suisse",
+                "country": "SUI 1",
                 "movies" : 1
             },
             {
-                "country": "Pakistan",
+                "country": "PAK 1",
                 "movies" : 1
             },
             {
-                "country": "Tchéquie",
+                "country": "TE 1",
                 "movies" : 1
             },
             {
-                "country": "Afrique du Sud",
+                "country": "AS 1",
                 "movies" : 1
             },
             {
-                "country": "Indonésie",
+                "country": "IDO 1",
                 "movies" : 1
             }
         ],
@@ -322,7 +322,7 @@
             "name": "[REC]",
             "director": " Jaume Balagueró",
             "rating": 7.5,
-            "country": "Espagne",
+            "country": "ES 4",
             "poster": "poster.png"
         }
     },
@@ -335,103 +335,103 @@
         "evolutionStatText": 0,
         "productionCountries": [
             {
-                "country": "USA",
+                "country": "US 256",
                 "movies" : 256
             },
             {
-                "country": "UK",
+                "country": "UK 58",
                 "movies" : 58
             },
             {
-                "country": "Canada",
+                "country": "CA 33",
                 "movies" : 33
             },
             {
-                "country": "Australie",
+                "country": "AU 14",
                 "movies" : 14
             },
             {
-                "country": "Espagne",
+                "country": "ES 13",
                 "movies" : 13
             },
             {
-                "country": "Italie",
+                "country": "ITA 9",
                 "movies" : 9
             },
             {
-                "country": "Russie",
+                "country": "RU 8",
                 "movies" : 8
             },
             {
-                "country": "Thailande",
+                "country": "TD 7",
                 "movies" : 7
             },
             {
-                "country": "France",
+                "country": "FR 5",
                 "movies" : 5
             },
             {
-                "country": "Brésil",
+                "country": "BRE 5",
                 "movies" : 5
             },
             {
-                "country": "Mexique",
+                "country": "MEX 4",
                 "movies" : 4
             },
             {
-                "country": "Philippines",
+                "country": "PHI 4",
                 "movies" : 4
             },
             {
-                "country": "Irlande",
+                "country": "IR 4",
                 "movies" : 4
             },
             {
-                "country": "Allemagne",
+                "country": "ALL 3",
                 "movies" : 3
             },
             {
-                "country": "Finlande",
+                "country": "FIN 3",
                 "movies" : 3
             },
             {
-                "country": "Bulgarie",
+                "country": "BUL 2",
                 "movies" : 2
             },
             {
-                "country": "Islande",
+                "country": "ISL 2",
                 "movies" : 2
             },
             {
-                "country": "Argentine",
+                "country": "AGN 2",
                 "movies" : 2
             },
             {
-                "country": "Portugal",
+                "country": "PRT 1",
                 "movies" : 1
             },
             {
-                "country": "Hongrie",
+                "country": "HON 1",
                 "movies" : 1
             },
             {
-                "country": "Belgique",
+                "country": "BEL 1",
                 "movies" : 1
             },
             {
-                "country": "Suisse",
+                "country": "SUI 1",
                 "movies" : 1
             },
             {
-                "country": "Luxembourg",
+                "country": "LUX 1",
                 "movies" : 1
             },
             {
-                "country": "Nouvelle-Zélande",
+                "country": "NZ 1",
                 "movies" : 1
             },
             {
-                "country": "Iran",
+                "country": "IRA 1",
                 "movies" : 1
             }
         ],
@@ -458,7 +458,7 @@
             "name": "Get out",
             "director": "Jordan Peele",
             "rating": 7.7,
-            "country": "USA",
+            "country": "US",
             "poster": "poster.png"
         }
     }

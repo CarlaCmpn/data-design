@@ -3,19 +3,81 @@
 @import '../../styles/variables/fonts/font';
 
 #bubblechart{
+
+	// background: purple;
+
+	g:first-of-type{
+		circle{
+			fill: $background;
+		}
+
+		text{
+			visibility: hidden;
+		}
+	}
+
 	.big{
-		fill: $orange-regular;
+
+		circle {
+			fill: $orange-regular;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 18px;
+		}
 	}
 
 	.medium{
-		fill: $orange-medium;
-	}
 
+		circle {
+			fill: $orange-medium;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 18px;
+		}
+	}
+	
 	.regular{
-		fill: $orange-darker;
+
+		circle {
+			fill: $orange-darker;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 14px;
+		}
 	}
 
 	.light{
-		fill: $orange-light;
+
+		circle {
+			fill: $orange-light;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 12px;
+		}
 	}
-}
+
+	.small{
+
+		circle {
+			fill: $orange-light;
+		}
+
+		text{
+			text-anchor: middle;
+			alignment-baseline: middle;
+			font-size: 8px;
+		}
+	}
+} 
