@@ -41,13 +41,13 @@ const Fiche = () => {
 							<FirstPart data={item}/>
 							<SecondPart data={item}/>
 						</div>
-						<Footer year={item.year} next="Next date"/>
+						<Footer year={item.year} next_1="scroll" next_2="scroll"/>
 					</div>
 				)}
 				<div className="block-container">
 				<Header text_1="5A" text_2="5B" text_3="5C"/>
 				<ThirdPart data={data}/>
-				<Footer year="Résumé" next="End"/>
+				<Footer year="Résumé" next_1="scroll" next_2="End"/>
 				</div>
 			</div>
 		</div>

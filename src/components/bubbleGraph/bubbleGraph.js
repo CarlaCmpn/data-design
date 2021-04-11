@@ -27,8 +27,6 @@ class BubbleGraph extends Component {
 		let packLayout = this.pack([400, 400])
 		const root = packLayout(hierachalData)
 
-		const tooltip = d3.select('.tooltip');
-
 		const leaf = svg
 			.selectAll("g")
 			.data(root)
