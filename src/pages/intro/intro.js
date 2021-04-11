@@ -41,7 +41,7 @@ const Intro = () => {
 				<div className="block-intro__content">
 					<h2>L'évolution du</h2>
 					<h1>Cinéma d'horreur</h1>
-					<h2>4 dates clés</h2>
+					<h2>en 4 dates clés</h2>
 				</div>
 				<div className="block-intro__button">
 					<Link to="/fiche">Découvrir</Link>
