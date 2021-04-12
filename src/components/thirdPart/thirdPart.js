@@ -1,5 +1,4 @@
 // import { cleanup } from "@testing-library/react";
-import { reduce } from "d3-array";
 import React, {useEffect, useState, useRef}  from "react"
 import { defaults } from 'react-chartjs-2'
 

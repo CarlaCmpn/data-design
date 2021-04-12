@@ -1,4 +1,5 @@
 import React, {useEffect, useRef} from "react"
+import MediaQuery from 'react-responsive'
 
 import "./fiche.scss"
 import FirstPart from "../../components/firstPart/firstPart"

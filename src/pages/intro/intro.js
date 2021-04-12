@@ -19,6 +19,9 @@ const Intro = () => {
 			gyroscope={true}
 			style={{height:"100vh", overflow:"none"}}
 		>
+			<div className="block-hidden">
+				<h2>Pour une meilleure expérience, visualisez l'interface sur un écran plus grand</h2>
+			</div>
 			<div className="block-intro-movie">
 				<div className="block-intro-movie block-intro1" ></div>
 				<div className="block-intro-movie block-intro2" ></div>

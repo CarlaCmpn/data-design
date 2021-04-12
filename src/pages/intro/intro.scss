@@ -2,6 +2,10 @@
 @import '../../styles/variables/mixins/font-style';
 @import '../../styles/variables/fonts/font';
 
+.block-hidden{
+	display: none;
+}
+
 .block-intro-movie{
 	background-position: center;
 	width: 100vw;
@@ -58,11 +62,7 @@
 	}
 }
 
-.parallax-effect-img{
-	// background-image: url("../../assets/images/background.png");
-	// background-position: center;
-	// background-repeat: no-repeat;
-}
+
 
 .block-intro{
 	display: flex;
@@ -103,5 +103,31 @@
 			border-bottom: 1px solid $orange-regular;
 			// text-decoration: underline;
 		}
+	}
+}
+
+@media only screen and (max-width: 1024px){
+
+    .block-hidden{
+		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100vw;
+		height: 100vh;
+		text-align: center;
+
+		h2{
+			@include subtitle_2;
+			color: $neutral-white;
+		}
+	}
+
+    .block-intro-movie{
+		display: none;
+	}
+
+    .block-intro{
+		display: none;
 	}
 }
