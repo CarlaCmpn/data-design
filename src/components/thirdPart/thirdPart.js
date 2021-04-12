@@ -73,7 +73,7 @@ const ThirdPart = () => {
 			</div>
 			<div className="block-container__content__right">
 				<h2>Conclusion</h2>
-				<p>Le genre horrifique s’est imposé au fil des années, devenant de plus en plus populaire et apprécié. C’est le genre cinématographique qui s’est le plus diversifé, créant de nombreux sous-genres.</p>
+				<p>Le genre horrifique s’est imposé au fil des années, devenant de plus en plus populaire et apprécié. C’est le genre cinématographique qui s’est le plus diversifié, créant de nombreux sous-genres.</p>
 				<p className={"block-container__content__right--item"+" "+`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>Torture Porn</p>
 				<p className={"block-container__content__right--item"+" "+`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>Home Invasion</p>
 				<p className={"block-container__content__right--item"+" "+`fade-in-section ${isVisible ? 'is-visible' : ''}`} ref={domRef}>Horror documentary</p>
